@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<title>There once was</title>
+
+        <link rel='stylesheet' type='text/css' href="css/stylesheet.css"/>
+	<script language="JavaScript"type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript"> 
+
+	var toggleMap = [ [1,1,1,1,1,1,1,1,1,1,1,1,1,1] , [1,1,1,1,1,1,1,1,1,1,1,1,1,1] , [1,1,1,1,1,1,1,1,1,1,1,1,1,1] , [1,1,1,1,1,1,1,1,1,1,1,1,1,1] , [1,1,1,1,1,1,1,1,1,1,1,1,1,1] ,[1,1,1,1,1,1,1,1,1,1,1,1,1,1] , [1,1,1,1,1,1,1,1,1,1,1,1,1,1] ,[1,1,1,1,1,1,1,1,1,1,1,1,1,1] ];
+
+	$(document).ready(function() {
+	    $('p').hover(function() {
+		$(this).fadeTo('slow',0);
+		$(this).fadeTo('slow',1);
+		/*
+		if(toggleMap[parseInt(this.id.substring(0,1)) , parseInt(this.id.substring(1,3))])
+		{
+		    $(this).fadeTo('slow',0);
+		    toggleMap[ parseInt(this.id.substring(0,1)) , parseInt(this.id.substring(1,3)) ] = 0;
+		}		
+		else
+		{
+		    $(this).fadeTo('slow',1);
+		    toggleMap[ parseInt(this.id.substring(0,1)) , parseInt(this.id.substring(1,3)) ] = 1;
+		}
+		*/
+	    });
+	    $(function() {
+		$('body').each(function() {
+	            $(this).width($(window).width() + 150);
+		});
+	    });
+
+	});
+
+
+</script>
+
+
+	<body>
+
+		<div>
+			<p id="000" class='red'></p>
+			<s></s>
+			<p id="001" class='pink'></p>
+			<s></s>
+			<p id="002"> </p>
+			<s></s>
+			<p id="003" class='red'></p>
+			<s></s>
+			<p id="004" class='pink'></p>
+			<s></s>
+			<p id="005"> </p>
+			<s></s>
+			<p id="006" class='pink'></p>
+			<s></s>
+			<p id="007"> </p>
+			<s></s>
+			<p id="008" class='red'></p>
+			<s></s>			
+			<p id="009"> </p>
+			<s></s>
+			<p id="010" class='pink'></p>
+			<s></s>
+			<p id="011" class='red'></p>
+			<s></s>
+			<p id="012" class="pink"> </p>
+			<s></s>
+			<p id="013" class="red"> </p>
+			<s></s>
+			<p id="014" class='pink'></p>
+		
+			
+		</div>
+		
+		<div>
+			<p id="100"></p>
+			<s></s>
+			<p id="101"> </p>
+			<s></s>
+			<p id="102" class='pink'></p>
+			<s></s>
+			<p id="103"></p>
+			<s></s>
+			<p id="104" class='red'></p>
+			<s></s>			
+			<p id="105"> </p>
+			<s></s>
+			<p id="106" class='red'></p>
+			<s></s>
+			<p id="107" class='pink'></p>
+			<s></s>
+			<p id="108" class='red'></p>
+			<s></s>
+			<p id="109"> </p>
+			<s></s>
+			<p id="110"></p>
+			<s></s>
+			<p id="111" class='pink'></p>
+			<s></s>			
+			<p id="112"> </p>
+			<s></s>
+			<p id="113" class='red'></p>
+			<s></s>
+			<p id="114"></p>			
+		</div>
+
+		<div>
+			<p id="200" class='pink'></p>
+			<s></s>			
+			<p id="201"></p>
+			<s></s>
+			<p id="202" class='red'></p>
+			<s></s>
+			<p id="203" class='pink'></p>
+			<s></s>
+			<p id="204"> </p>
+			<s></s>
+			<p id="205" class='red'></p>
+			<s></s>			
+			<p id="206"> </p>
+			<s></s>
+			<p id="207" class='red'></p>
+			<s></s>
+			<p id="208" class='red'></p>
+			<s></s>			
+			<p id="209"> </p>
+			<s></s>
+			<p id="210" class='pink'></p>
+			<s></s>
+			<p id="211" class='red'></p>
+			<s></s>
+			<p id="212"> </p>
+			<s></s>
+			<p id="213"> </p>
+			<s></s>
+			<p id="214" class='pink'></p>
+		</div>
+		
+		<div>
+			<p id="300" class='red'></p>
+			<s></s>			
+			<p id="301"> </p>
+			<s></s>
+			<p id="302" class='pink'></p>
+			<s></s>
+			<p id="303" class='red'></p>
+			<s></s>
+			<p id="304"> </p>
+			<s></s>
+			<p id="305"> </p>
+			<s></s>
+			<p id="306" class='red'></p>
+			<s></s>
+			<p id="307" class='pink'></p>
+			<s></s>
+			<p id="308" class='red'></p>
+			<s></s>
+			<p id="309"> </p>
+			<s></s>
+			<p id="310" class='pink'></p>
+			<s></s>
+			<p id="311" class='red'></p>
+			<s></s>			
+			<p id="312"> </p>
+			<s></s>
+			<p id="313" class='pink'> </p>
+			<s></s>
+			<p id="314" class='red'></p>
+		</div>
+
+		<div>
+			
+			<p id="400"> </p>
+			<s></s>
+			<p id="401" class='red'></p>
+			<s></s>
+			<p id="402"> </p>
+			<s></s>
+			<p id="403" class='pink'></p>
+			<s></s>
+			<p id="404" class='red'></p>
+			<s></s>			
+			<p id="405"> </p>
+			<s></s>
+			<p id="406" class='red'></p>
+			<s></s>
+			<p id="407" class='pink'></p>
+			<s></s>
+			<p id="408"> </p>
+			<s></s>
+			<p id="409"> </p>
+			<s></s>
+			<p id="410" class='red'></p>
+			<s></s>
+			<p id="411" class='pink'></p>
+			<s></s>
+			<p id="412" class='red'></p>
+			<s></s>
+			<p id="413"> </p>
+			<s></s>
+			<p id="414" class='pink'></p>
+		</div>
+
+		<div>
+			<p id="500" class='pink'></p>
+			<s></s>			
+			<p id="501"></p>
+			<s></s>
+			<p id="502" class='red'></p>
+			<s></s>
+			<p id="503" class='pink'></p>
+			<s></s>
+			<p id="504"> </p>
+			<s></s>
+			<p id="505" class='red'></p>
+			<s></s>			
+			<p id="506"> </p>
+			<s></s>
+			<p id="507" class='red'></p>
+			<s></s>
+			<p id="508" class='red'></p>
+			<s></s>			
+			<p id="509"> </p>
+			<s></s>
+			<p id="510" class='pink'></p>
+			<s></s>
+			<p id="511" class='red'></p>
+			<s></s>
+			<p id="512"> </p>
+			<s></s>
+			<p id="513"> </p>
+			<s></s>
+			<p id="514" class='pink'></p>
+		</div>
+
+		<div>
+			<p id="600" class='red'></p>
+			<s></s>
+			<p id="601" class='pink'></p>
+			<s></s>
+			<p id="602"> </p>
+			<s></s>
+			<p id="603" class='red'></p>
+			<s></s>
+			<p id="604" class='pink'></p>
+			<s></s>
+			<p id="605"> </p>
+			<s></s>
+			<p id="606" class='pink'></p>
+			<s></s>
+			<p id="607"> </p>
+			<s></s>
+			<p id="608" class='red'></p>
+			<s></s>			
+			<p id="609"> </p>
+			<s></s>
+			<p id="610" class='pink'></p>
+			<s></s>
+			<p id="611" class='red'></p>
+			<s></s>
+			<p id="612" class="pink"> </p>
+			<s></s>
+			<p id="613" class="red"> </p>
+			<s></s>
+			<p id="614"></p>
+			
+		</div>
+		
+		<div>
+			<p id="700"></p>
+			<s></s>
+			<p id="701"> </p>
+			<s></s>
+			<p id="702" class='pink'></p>
+			<s></s>
+			<p id="703"></p>
+			<s></s>
+			<p id="704" class='red'></p>
+			<s></s>			
+			<p id="705"> </p>
+			<s></s>
+			<p id="706" class='red'></p>
+			<s></s>
+			<p id="707" class='pink'></p>
+			<s></s>
+			<p id="708" class='red'></p>
+			<s></s>
+			<p id="709"> </p>
+			<s></s>
+			<p id="710"></p>
+			<s></s>
+			<p id="711" class='pink'></p>
+			<s></s>			
+			<p id="712"> </p>
+			<s></s>
+			<p id="713" class='red'></p>
+			<s></s>
+			<p id="714" class='red'></p>			
+		</div>
+
+       
+	</body>
+</html>
